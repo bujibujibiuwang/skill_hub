@@ -1,0 +1,4 @@
+interface:
+  display_name: "Business Algorithm Visualizer"
+  short_description: "Turn supply-chain logic into client-ready diagrams"
+  default_prompt: "Translate this supply-chain algorithm, rule set, optimization model, heuristic, bad case, or forecast explanation into a clear client-facing diagram and concise business narrative."

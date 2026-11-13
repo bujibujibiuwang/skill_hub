@@ -1,0 +1,31 @@
+version: 1
+generated_at: "2026-11-13"
+hub_root: "/Users/zoeywang/Desktop/skill_hub"
+skills:
+  - name: business-algorithm-visualizer
+    version: "0.1.0"
+    status: active
+    category: business-communication
+    description: "Turn supply-chain and operations-research algorithms, rules, optimization models, heuristics, bad cases, trade-offs, and forecast logic into clear client-facing business diagrams and explanations."
+    source:
+      type: local
+      path: "/Users/zoeywang/Documents/Codex/2026-11-09/referenced-chatgpt-conversation-this-is-an/outputs/business-algorithm-visualizer"
+      git_repository: null
+      imported_at: "2026-11-13"
+      source_sha256: "8a0da244f7448d748bd40781aa9712d4c9b8d358679b91f5d9ce6b143d11bb8f"
+    managed_path: "skills/business-algorithm-visualizer"
+    applicable_scenarios:
+      - "Explain supply-chain, logistics, inventory, routing, allocation, replenishment, forecasting, or optimization logic to business users"
+      - "Convert rules, equations, constraints, heuristics, or bad cases into diagrams"
+    dependencies:
+      runtime: []
+      tools: []
+      references:
+        - "references/anti-patterns-and-examples.md"
+        - "references/backend-adapters.md"
+        - "references/business-translation.md"
+        - "references/diagram-selection.md"
+        - "references/visual-system.md"
+    installation:
+      codex_global: "~/.codex/skills/business-algorithm-visualizer"
+      mode: symlink
